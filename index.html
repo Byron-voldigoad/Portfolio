@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="boxed">
+        <div class="flex alignecenter space-between">
+          <button onclick="openMenu()" class="header-menu-btn">
+            <span class="material-icons icons">menu</span>
+          </button>
+          <a href="" class="header-logo">
+            <img src="img/BRVDG.png" alt="">
+          </a>
+          <ul class="header-menu">
+            <li><a href="#acceuil">Acceuil</a></li>
+            <li><a href="#a_propos">A propos</a></li>
+            <li><a href="#competences">Compétence</a></li>
+            <li><a href="#projets">Réalisation</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="slider" id="acceuil">
+      <img src="img/fond00.avif" alt="" class="slider-background" />
+      <div class="slider-content">
+        <h1>Tchango Louis Miller</h1>
+        <p> Je suis developpeur full-stark</p>
+      </div>
+    </div>
+
+      <div class="section" id="a_propos">
+        <div class="boxed">
+          <div class="flex topcolumn mcenter">
+            <div class="w40 wh100">
+              <h2>A propos de moi</h2>
+            </div>
+
+            <div class="w60 wh100">
+              <p>
+                
+      Je suis un développeur web passionné par la création de solutions innovantes et fonctionnelles. J'ai une solide expérience en HTML, CSS, JavaScript, PHP, python, visual basics et divers frameworks, et je m'efforce de concevoir des sites web intuitifs et esthétiques. En dehors du développement, je suis un grand fan d'animes et de jeux vidéo, ce qui nourrit ma créativité et m'inspire dans mes projets. J'aime explorer les nouvelles technologies et participer à des projets collaboratifs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section dark" id="competences">
+        <div class="boxed text-center">
+          <h2>Découvrer mes competences</h2>
+          <div class="flex topcolumn gap20">
+            <div class="w25 wh100 skill">
+              <img src="img/Html-logo.png" alt="" />
+              <h3>HTML</h3>
+            </div>
+            <div class="w25 wh100 skill">
+              <img src="img/CSS3_logo.svg.png" alt="" />
+              <h3>CSS</h3>
+            </div>
+            <div class="w25 wh100 skill">
+              <img src="img/JavaScript-logo.png" alt="" />
+              <h3>Java Script</h3>
+            </div>
+            <div class="w25 wh100 skill">
+              <img src="img/PHP-logo.svg.png" alt="" />
+              <h3>PHP</h3>
+            </div>
+            <div class="w25 wh100 skill">
+              <img src="img/Python-logo.png" alt="" />
+              <h3>Python</h3>
+            </div>
+            <div class="w25 wh100 skill">
+              <img src="img/Vb-logo.png" alt="" />
+              <h3>Visual basic</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="projets">
+        <div class="boxed text-center">
+          <h2>Mes realisations</h2>
+          <div class="flex wrap gap20 space-between">
+            <div class="w32 w50 realisation">
+              <a href="">
+                <img src="img/php.png" alt="" />
+                <h3 class="w60 wh100">Application de gestion du suivi pedagogique 
+                  et disciplinaire des etudiants</h3>
+              </a>
+            </div>
+            <div class="w32 w50 realisation">
+              <a href="">
+                <img src="img/vb.png" alt="" />
+                <h3 class="w60 wh100">Application de gestion de stock</h3>
+              </a>
+            </div>
+            <div class="w32 w50 realisation">
+              <a href="">
+                <img src="img/python.png" alt="" />
+              </a>
+            </div>
+            <div class="w32 w50 realisation">
+              <a href="">
+                <img src="img/js.png" alt="" />
+              </a>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <div class="section dark" id="contact">
+        <div class="boxed text-center">
+          <h2>Contacter moi</h2>
+          <div class="flex topcolumn space-between gap30">
+            <div class="w32 wh100 contact">
+              <span class="material-icons icons">mail</span>
+              <span class="label">E-mail</span>
+              <span class="value">Tchangolouismuller@gmail.com</span>
+            </div>
+            <div class="w32 wh100 contact">
+                <span class="material-icons icons">call</span>
+                <span class="label">Telephone</span>
+                <span class="value">(+237) 654 031 589 / 655 596 702</span>
+              </div>
+              <div class="w32 wh100 contact">
+                <span class="material-icons icons">mail</span>
+                <span class="label">------</span>
+                <span class="value">......</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    
+  </body>
+  <script src="js/app.js"></script>
+</html>
