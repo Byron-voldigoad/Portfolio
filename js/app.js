@@ -28,4 +28,11 @@ const openPopup = (e) => {
   // let clickedH3contain = h3contain.id;
   // console.log(clickedH3contain)
 };
+
+const closePopup = () =>{
+  popupBg.classList.remove("active")
+}
+
 allPhoto.forEach((el) => el.addEventListener("click", openPopup));
+popupImg.addEventListener("click", (e) => e.stopPropagation())
+popupBg.addEventListener("click", closePopup)
