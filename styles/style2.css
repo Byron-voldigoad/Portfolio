@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 150px; /* Taille des images miniatures */
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.thumbnail:hover {
+    transform: scale(1.05); /* Effet de survol */
+}
+
+.modal {
+    display: none; /* Masqué par défaut */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%; /* Limite la taille de l'image */
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}

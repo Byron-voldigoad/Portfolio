@@ -88,30 +88,51 @@
       </div>
 
       <div class="section" id="projets">
+        <div id="popup-bg">
+          <div class="btn-close">
+            <button class="">
+              <span class="material-icons icons">close</span>
+            </button>
+          </div>
+          
+          <div id="popup-content">
+            <img id="popup-img" src="img/php.png" alt="">
+          </div>
+
+          <div class="text wh100">
+            <a href="" id="gitUrl" target="_blank">
+              <h3 class="">VOir le projet sur github</h3>
+            </a>
+          </div>
+        </div>
+        
         <div class="boxed text-center">
           <h2>Mes realisations</h2>
+          
           <div class="flex wrap gap20 space-between">
-            <div class="w32 w50 realisation">
-              <a href="">
+            <div id="php" data-link="https://github.com/Byron-voldigoad/GSPDE" class="w32 w50 realisation grid">
+              <!-- <a href="https://github.com/Byron-voldigoad/GSPDE"> -->
                 <img src="img/php.png" alt="" />
                 <h3 class="w60 wh100">Application de gestion du suivi pedagogique 
                   et disciplinaire des etudiants</h3>
               </a>
             </div>
-            <div class="w32 w50 realisation">
-              <a href="">
+            <div id="vb" data-link="https://github.com/Byron-voldigoad/gestion_stock_VB" class="w32 w50 realisation grid">
+              <!-- <a href="https://github.com/Byron-voldigoad/gestion_stock_VB"> -->
                 <img src="img/vb.png" alt="" />
                 <h3 class="w60 wh100">Application de gestion de stock</h3>
               </a>
             </div>
-            <div class="w32 w50 realisation">
-              <a href="">
+            <div id="python" data-link="https://github.com/Byron-voldigoad/Alien-shoot" class="w32 w50 realisation grid">
+              <!-- <a href="https://github.com/Byron-voldigoad/Alien-shoot"> -->
                 <img src="img/python.png" alt="" />
+                <h3 id="Jeux de shoot avec Pygame" class="w60 wh100">Jeux de shoot avec Pygame</h3>
               </a>
             </div>
-            <div class="w32 w50 realisation">
-              <a href="">
+            <div id="js" data-link="https://github.com/Byron-voldigoad/ToDoApp_js" class="w32 w50 realisation grid">
+              <!-- <a href="https://github.com/Byron-voldigoad/ToDoApp_js"> -->
                 <img src="img/js.png" alt="" />
+                <h3 class="w60 wh100">ToDoApp en javas script</h3>
               </a>
             </div>
            
@@ -121,11 +142,12 @@
       <div class="section dark" id="contact">
         <div class="boxed text-center">
           <h2>Contacter moi</h2>
-          <div class="flex topcolumn space-between gap30">
+          <div class="flex topcolumn space-between gap30 gap20">
             <div class="w32 wh100 contact">
               <span class="material-icons icons">mail</span>
               <span class="label">E-mail</span>
-              <span class="value">Tchangolouismuller@gmail.com</span>
+              <span class="value"><a class="lien-git" href="mailto:Tchangolouismuller@gmail.com" title="Email Us">Tchangolouismuller@gmail.com</a>
+                </span>
             </div>
             <div class="w32 wh100 contact">
                 <span class="material-icons icons">call</span>
@@ -133,11 +155,13 @@
                 <span class="value">(+237) 654 031 589 / 655 596 702</span>
               </div>
               <div class="w32 wh100 contact">
-                <span class="material-icons icons">mail</span>
-                <span class="label">------</span>
-                <span class="value">......</span>
+                <span class="material-icons icons">github</span>
+                <span class="label">Mon GitHub</span>
+                <span class="value"><a class="lien-git" href="https://github.com/Byron-voldigoad">Byron-voldigoad</a></span>
               </div>
           </div>
+         
+      </div>
         </div>
       </div>
     
